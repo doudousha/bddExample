@@ -1,3 +1,4 @@
+@Ignore
 Feature: Wikipedia Search
   Scenario: TDD search on wikipedia
     Given I go to Wikipedia homepage
