@@ -23,6 +23,8 @@ public class ScenarioOutLineExampleTest {
         Configuration.holdBrowserOpen = true;
         Configuration.pollingInterval = 1000;
         Configuration.browser = "chrome";
+
+       int playerToTo = '\0'*3;
     }
 
     @Given("^我访问 Wikipedia homepage$")
